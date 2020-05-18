@@ -18,7 +18,7 @@ Namespace Dcoder
         
         numero_datos = Console.ReadLine()
         numero_datos = numero_datos -1
-        Console.WriteLine(numero_datos)
+        
         'pruebas array en'
         dim datos_array(numero_datos) as Long
         
