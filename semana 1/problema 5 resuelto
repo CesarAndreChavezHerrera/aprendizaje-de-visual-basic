@@ -1,0 +1,44 @@
+'Visual Basic.Net Compiler version 0.0.0.5943 (Mono 4.0.1)
+
+Imports System
+Imports System.Collections.Generic
+Imports System.Linq
+Imports System.Text.RegularExpressions
+
+Namespace Dcoder
+  Public Module Program
+    Public Sub Main(args() As string)
+      'Your code goes here
+        Dim numero(2) as Single
+        Dim respuesta as Single
+        Console.WriteLine("Bienvenido a la calculadora")
+        Console.WriteLine("_______________________________________")
+        Console.WriteLine("Ingrese el primer numero")
+        numero(0) = Console.ReadLine()
+        
+        Console.WriteLine("Ingrese el segundo numero")
+        numero(1) = Console.ReadLine()
+        
+        Console.WriteLine("cuatro operaciones basica con " & numero(0) & " y " &numero(1))
+        
+        Console.WriteLine("")
+        respuesta = numero(0) + numero(1)
+        Console.WriteLine("Suma es " & respuesta)
+        
+        respuesta = 0
+        Console.WriteLine("")
+        respuesta = numero(0) - numero(1)
+        Console.WriteLine("Retas es "& respuesta)
+        
+        respuesta = 0
+        Console.WriteLine("")
+        respuesta = numero(0) * numero(1)
+        Console.WriteLine("multiplicacion es "& respuesta)
+        
+        respuesta = 0
+        Console.WriteLine("")
+        respuesta = numero(0) / numero(1)
+        Console.WriteLine("divicion es "& respuesta)
+    End Sub
+  End Module
+End Namespace
