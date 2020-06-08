@@ -40,3 +40,5 @@ Namespace Dcoder
         
         Console.WriteLine(_mensaje)
     end function
+  End Module
+End Namespace
